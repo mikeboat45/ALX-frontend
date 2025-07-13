@@ -7,7 +7,6 @@
 - Started my front-end journey with ALX
 - Onboarded on to Savannah, the learning platform
 - Had a look at the course curriculum to create a study timetable
-- 
 
 ### Week of June 23
 - Introduction to BASH and the command line interface
