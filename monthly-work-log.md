@@ -16,9 +16,14 @@
 
 ### Week of June 30
 - Tackled version control
-    - d
+    - Started building essentials skills with GIt & GitHub
+    - Mastered tracking changes in your code and collaborating with others
+    - Resolving merge conflicts
+    - Learned to manage projects more efficiently
 
 ### Week of July 7
 - Introduction to JavaScript
     - Using javascript with Node in the terminal
+    - Declaring variables and writing functions
+    - Understanding loops (``if/else, while, do while, for``)
 
