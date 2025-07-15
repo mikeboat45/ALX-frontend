@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML</title>
+    <style>
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+         }
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>HTML</h2>
+        <nav>
+            <ul>
+                <li><a href="/tags">Tags</a></li>
+                <li><a href="/elements">Elements</a></li>
+                <li><a href="/attributes">Attributes</a></li>
+                <li><a href="/tables">Tables</a></li>
+                <li><a href="/forms">Forms</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h3>Tags</h3>
+            <p>This is what I know about HTML <s>tags</s></p>
+            <dl>
+                <dt>Anchor Tag</dt>
+                <dd>The anchor tag is used to add <i>links</i> to an html file.</dd>
+            </dl>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h3>Elements</h3>
+            <p>This is what I know about <em>elements</em></p>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h3>Attributes</h3>
+            <p>Here is what I know about <strong>attributes</strong></p>
+        </article>
+    </section>
+
+    <section>
+        <table>
+            <caption>Table details</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Number</th>
+                    <th scope="col">School</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="'row">Michael</th>
+                    <td>256</td>
+                    <td>ALX</td>
+                </tr>
+                <tr>
+                    <th scope="row">James</th>
+                    <td>394</td>
+                    <td>UCC</td>
+                </tr>
+                <tr>
+                    <th scope="row">Abigail</th>
+                    <td>456</td>
+                    <td>UG</td>
+                </tr>
+            </tbody>
+        </table>
+    
+
+        <table>
+            <caption>My <i>favourite</i> books</caption>
+            <tr>
+                <th scope="col">Book Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Year Published</th>
+                <th scope="col">Genre</th>
+            </tr>
+            <tr>
+                <th scope="row">Dance Dance</th>
+                <td>Jeremy</td>
+                <td>2017</td>
+                <td>Musical</td>
+            </tr>
+            <tr>
+                <th scope="row">Kick Kick</th>
+                <td>Jet Li</td>
+                <td>2005</td>
+                <td>Karate</td>
+            </tr>
+            <tr>
+                <th scope="row">Joke Joke</th>
+                <td>Rogan</td>
+                <td>2024</td>
+                <td>Comedy</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <form action="/submit-form" method="post">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <input type="email" name="email" placeholder="Email">
+            <input type="number" name="number" placeholder="Number"><br>
+            <input type="date" name="date" placeholder="Password"><br>
+            <input type="checkbox" name="checkbox" placeholder="Email"><br>
+            <input type="checkbox" name="checkbox" placeholder="Email"><br>
+            <input type="radio" name="radio" placeholder="Username"><br>
+            <input type="radio" name="radio" placeholder="Username"><br>
+            <input type="radio" name="radio" placeholder="Username"><br>
+            <input type="submit" name="submit" placeholder="Password">
+        </form>
+
+        <form action="/registration" method="get">
+            <label for="username">Name</label>
+            <input type="text" id="username" name="username" required maxlength="18"><br>
+
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" required minlength="4"><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="3" max="12"><br>
+
+            <label for="terms">Do you agree</label>
+            <input type="checkbox" id="terms" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <figure>
+            <img src="/image.jpg" alt="image">
+            <figcaption>Here is an image</figcaption>
+        </figure>
+
+        <figure>
+            <video controls >
+                <source src="https://www.youtube.com/watch?v=usn4siT54YA" type="video/mp4">
+            </video>
+            <figcaption>Here is a video file</figcaption>
+        </figure>
+
+        <figure>
+            <audio controls>
+                <source src="/audio-file" type="audio/mpeg">
+            </audio>
+            <figcaption>Here is an audio file.</figcaption>
+        </figure>
+        
+    </section>
+
+    <footer>
+        <p>Contact me at: <a href="/hello.html" target="_blank">Hello</a></p>
+        <p>&copy; Hello LLC &reg; For me &trade;.</p>
+    </footer>
+    
+</body>
+</html>
